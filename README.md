@@ -1,46 +1,153 @@
-# Getting Started with Create React App
+# Get in Touch project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tasks
 
-## Available Scripts
+### Task 1:
 
-In the project directory, you can run:
+As a user I want to access the web page using the correct url so I can interact with the application
 
-### `yarn start`
+**Acceptance criteria:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+  Given I am on the get in touch page
+  Then I can see the page title "Get in touch - cornerjob"
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Task 2:
 
-### `yarn test`
+As a user I want to have a navbar so I can see the cornerjob logo and navigation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Acceptance criteria:**
 
-### `yarn build`
+```
+  Given I am on the get in touch page
+  Then I can see the navigation bar with all its navigation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Given I am on the get in touch page
+  And I see the navigation bar
+  Then I can see the logo pointing to "https://cornerjob.com"
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Task 3:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As a user I want to have a footer so I can see the cornerjob copyright
 
-### `yarn eject`
+**Acceptance criteria:**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+  Given I am on the get in touch page
+  Then I can see the footer with all its elements
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  Given I am on the get in touch page
+  Then I can see the footer with all its elements
+  And I can see the copyright "Cornerjob © Copyright 2021"
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Task 4:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+As a user I want to the the page title and description so I can have more information about what is this page for
 
-## Learn More
+**Acceptance criteria:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+  Given I am on the get in touch page
+  Then I can see the heading "Contact us form"
+  And I can see the correct description
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Task 5:
+
+As a user I want to have a form so I can contact with customer support
+
+**Acceptance criteria:**
+
+```
+  Given I am on the get in touch page
+  Then I can see the get in touch form
+  And I can see the "firstName" field
+  And I can see the "lastName" field
+  And I can see the "email" field
+  And I can see the send button
+```
+
+### Task 6:
+
+As a user I want to send the get in touch form so I can contact with customer support
+
+**Acceptance criteria:**
+
+```
+  Given I am on the get in touch page
+  And I see the get in touch form with all its elements
+  When I fill the first name with at least one alphabetical or spaces characters up to 15
+  And I fill the last name with at least one alphabetical or spaces characters up to 20
+  And I fill the email with the valid email format up to 30 characters
+  And I click on send button
+  Then I can see the success page
+```
+
+### Task 7:
+
+As a user I want the fields shows its validations so I can see the mistakes I made
+
+**Acceptance criteria:**
+
+```
+  Given I am on the get in touch page
+  And I see the get in touch form with all its elements
+  When I fill the first name with a non alphabetical characters or empty
+  And I fill the last name with a non alphabetical characters or empty
+  And I fill the email with the invalid email format
+  And I click on send button
+  Then I can see the first name field with an invalid message
+  And I can see the last name field with an invalid message
+  And I can see the the email  field with an invalid message
+```
+
+### Task 8:
+
+As a user I want to be redirected to a failure page when I send the form but the request failed so I can figure out the error was not about my information
+
+**Acceptance criteria:**
+
+```
+  Given I am on the get in touch page
+  And I see the get in touch form with all its elements
+  When I fill all the fields with valid data
+  But I Got an error after clicking on send button
+  Then I can see the failure page
+```
+
+### Task 9:
+
+As a user I want to have a failure page so I can see the success message
+
+**Acceptance criteria:**
+
+```
+  Given I am on the failure page
+  Then I can see the failure page heading and description
+  And I can see the navigation bar with all its navigation
+  And I can see the footer with all its elements
+
+  Given I am on the failure page
+  When I click on get me back button
+  Then I can see the get in touch page
+```
+
+### Task 10:
+
+As a user I want to have a success page so I can see the success message
+
+**Acceptance criteria:**
+
+```
+  Given I am on the success page
+  Then I can see the success page heading and description
+  And I can see the navigation bar with all its navigation
+  And I can see the footer with all its elements
+
+  Given I am on the failure page
+  When I click on get me back button
+  Then I can see the get in touch page
+```
