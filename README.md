@@ -1,8 +1,8 @@
 # Get in Touch project
 
-## Tasks
+## User Storys
 
-### Task 1:
+### User Story 1:
 
 As a user I want to access the web page using the correct url so I can interact with the application
 
@@ -13,7 +13,7 @@ As a user I want to access the web page using the correct url so I can interact 
   Then I can see the page title "Get in touch - cornerjob"
 ```
 
-### Task 2:
+### User Story 2:
 
 As a user I want to have a navbar so I can see the cornerjob logo and navigation
 
@@ -28,7 +28,7 @@ As a user I want to have a navbar so I can see the cornerjob logo and navigation
   Then I can see the logo pointing to "https://cornerjob.com"
 ```
 
-### Task 3:
+### User Story 3:
 
 As a user I want to have a footer so I can see the cornerjob copyright
 
@@ -43,7 +43,7 @@ As a user I want to have a footer so I can see the cornerjob copyright
   And I can see the copyright "Cornerjob © Copyright 2021"
 ```
 
-### Task 4:
+### User Story 4:
 
 As a user I want to the the page title and description so I can have more information about what is this page for
 
@@ -55,7 +55,7 @@ As a user I want to the the page title and description so I can have more inform
   And I can see the correct description
 ```
 
-### Task 5:
+### User Story 5:
 
 As a user I want to have a form so I can contact with customer support
 
@@ -70,7 +70,7 @@ As a user I want to have a form so I can contact with customer support
   And I can see the send button
 ```
 
-### Task 6:
+### User Story 6:
 
 As a user I want to send the get in touch form so I can contact with customer support
 
@@ -86,7 +86,7 @@ As a user I want to send the get in touch form so I can contact with customer su
   Then I can see the success page
 ```
 
-### Task 7:
+### User Story 7:
 
 As a user I want the fields shows its validations so I can see the mistakes I made
 
@@ -104,7 +104,7 @@ As a user I want the fields shows its validations so I can see the mistakes I ma
   And I can see the the email  field with an invalid message
 ```
 
-### Task 8:
+### User Story 8:
 
 As a user I want to be redirected to a failure page when I send the form but the request failed so I can figure out the error was not about my information
 
@@ -118,7 +118,7 @@ As a user I want to be redirected to a failure page when I send the form but the
   Then I can see the failure page
 ```
 
-### Task 9:
+### User Story 9:
 
 As a user I want to have a failure page so I can see the success message
 
@@ -135,7 +135,7 @@ As a user I want to have a failure page so I can see the success message
   Then I can see the get in touch page
 ```
 
-### Task 10:
+### User Story 10:
 
 As a user I want to have a success page so I can see the success message
 
