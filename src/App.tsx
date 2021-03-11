@@ -1,5 +1,7 @@
+import ContactUs from "./pages/ContactUs/ContactUs";
+
 function App() {
-	return <h1>Welcome to the jungle!</h1>;
+	return <ContactUs />;
 }
 
 export default App;
