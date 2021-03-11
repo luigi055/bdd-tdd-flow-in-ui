@@ -1,0 +1,11 @@
+{
+	"video": false,
+	"defaultCommandTimeout": 5000,
+	"pageLoadTimeout": 20000,
+	"testFiles": "**/*.feature",
+	"env": {},
+	"retries": {
+		"runMode": 2,
+		"openMode": 2
+	}
+}
