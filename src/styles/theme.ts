@@ -1,6 +1,6 @@
 const defaultTheme: Theme = {
 	primaryColor: "#08a9df",
-	onPrimaryColor: "#FFF",
+	onPrimaryColor: "#333",
 	backgroundColor: "#EEE",
 	onBackgroundColor: "#333",
 	fontFamily: "helvetica",

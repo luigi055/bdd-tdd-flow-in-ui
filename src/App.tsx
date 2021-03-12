@@ -1,4 +1,5 @@
 import { ThemeProvider } from "styled-components";
+import Footer from "./components/Footer";
 import { MainLayout } from "./components/Layout/Layout";
 import Navbar from "./components/Navbar";
 import ContactUs from "./pages/ContactUs/ContactUs";
@@ -11,6 +12,7 @@ function App() {
 			<MainLayout>
 				<Navbar />
 				<ContactUs />
+				<Footer />
 			</MainLayout>
 		</ThemeProvider>
 	);
