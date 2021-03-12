@@ -16,6 +16,7 @@ export const MainElement = styled.main`
 	flex-grow: 100;
 	padding-bottom: 25px;
 	padding-top: 25px;
+	flex-direction: column;
 
 	${paddingXFragment}
 `;
